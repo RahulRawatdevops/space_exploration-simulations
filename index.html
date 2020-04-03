@@ -9,7 +9,7 @@
     <script src="TemplateData/UnityProgress.js"></script>
     <script src="Build/UnityLoader.js"></script>
     <script>
-      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/v2.0.json", {onProgress: UnityProgress});
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/v2.1.json", {onProgress: UnityProgress});
     </script>
   </head>
   <body>
@@ -18,7 +18,7 @@
 	<li>Press Space to toggle overlay</li>
 	<li>Press 'R' to toggle rings</li>	
 	</ul>
-	<div class="webgl-content">
+    <div class="webgl-content">
       <div id="gameContainer" style="width: 960px; height: 600px"></div>
       <div class="footer">
         <div class="webgl-logo"></div>
